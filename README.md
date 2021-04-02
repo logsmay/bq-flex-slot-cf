@@ -1,4 +1,4 @@
-# README #
+# BIGQUERY FLEX SLOT OPTIMIZATION #
 
 This repository is created to experimentally add/remove slots on bigquery with custom commitments, reservations & assignments using bigquery flex slot reservation concepts. For more information refer to the [bigquery reservation](https://cloud.google.com/bigquery/docs/reservations-intro)
 
