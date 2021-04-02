@@ -32,10 +32,10 @@ def bootstrap_flex_slot(event, context):
     json_msg = json.loads(pubsub_message)
     if json_msg['flex_op'] == 'create':
         print('executing create function')
-        #exec_create_flex_slot(json_msg)
+        exec_create_flex_slot(json_msg)
     elif json_msg['flex_op'] == 'delete':
         print('executing delete function')
-        #exec_delete_flex_slot(json_msg)
+        exec_delete_flex_slot(json_msg)
     end = time.time()
     print("Function ran for ~{} seconds".format((end - start)))
 
